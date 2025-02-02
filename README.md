@@ -1,14 +1,24 @@
-# Hi there! 👋 I'm Md Faizan Ashrafi
+# 💫 About Me:
+Java, C++, Bash and Python
 
-## 🚀 About Me
-I'm a passionate programmer with experience in **C++**, **Java**, and **Python**. I love tackling challenging **Data Structures and Algorithms (DSA)** problems and continuously improving my problem-solving skills.
 
-## 💡 What I Want To Do
-- 🔹 Explore and build projects in C++, Java, and Python
-- 🔹 Learn and grow in the field of software engineering
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/itzblackhat/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mdfaizanashrafi13032001@gmail.com) 
 
-## 📫 Connect with Me
-- GitHub: [Your GitHub Profile](https://github.com/mdfaizanashrafi)
-- LinkedIn: [Your LinkedIn (if applicable)](https://www.linkedin.com/in/itzblackhat/)
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=mdfaizanashrafi&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=mdfaizanashrafi&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mdfaizanashrafi&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-Feel free to check out my repositories and collaborate! Let's code and grow together 🚀
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=mdfaizanashrafi&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=mdfaizanashrafi&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
