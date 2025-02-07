@@ -22,3 +22,12 @@ Java, C++, Bash and Python
 [![](https://visitcount.itsvg.in/api?id=mdfaizanashrafi&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+
+# My GitHub Streak Tracker
+
+## Current Streak:
+**Streak: 0** (This will be updated automatically!)
+
+Last updated: 2025-02-07 16:45:00 (This will also be updated automatically!)
+
