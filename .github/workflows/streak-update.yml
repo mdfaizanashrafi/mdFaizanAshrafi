@@ -1,0 +1,51 @@
+# .github/workflows/streak-update.yml
+name: Update README with Streak
+
+on:
+  push:
+    branches:
+      - main  # Trigger the action when pushing to the 'main' branch
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest  # Use an Ubuntu runner for the job
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Step to checkout the code in the repository
+
+      - name: Get current date
+        id: date
+        run: |
+          echo "DATE=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV  # Get the current date and save it
+
+      - name: Get current streak count
+        id: streak
+        run: |
+          streak_file="streak.txt"  # Specify the file to read the streak count
+          if [ -f "$streak_file" ]; then  # Check if streak.txt exists
+            streak=$(cat "$streak_file")  # Read the streak count from the file
+          else
+            streak=0  # If streak.txt doesn't exist, set streak to 0
+          fi
+          echo "STREAK=$((streak + 1))" >> $GITHUB_ENV  # Increment streak and save it to the environment
+
+      - name: Update README.md with streak and timestamp
+        run: |
+          sed -i "s/Last updated: .*/Last updated: $DATE/" README.md  # Replace the timestamp in the README.md
+          sed -i "s/Streak: .*/Streak: $STREAK/" README.md  # Replace the streak count in README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "MD FAIZAN ASHRAFI"  # Set the GitHub user for commit
+          git config --global user.email "mdfaizanashrafi13032001@gmail.com"  # Set the email for GitHub Actions
+          git add README.md  # Stage README.md for commit
+          git commit -m "docs: update README with streak and timestamp"  # Commit the changes
+          git push  # Push the changes to the repository
+
+      - name: Save new streak count
+        run: |
+          echo $STREAK > streak.txt  # Save the updated streak to streak.txt
+          git add streak.txt  # Stage the streak.txt file for commit
+          git commit -m "docs: update streak count"  # Commit the streak count update
+          git push  # Push the streak count change to the repository
